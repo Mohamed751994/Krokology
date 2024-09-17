@@ -13,6 +13,11 @@ Instructions on how to run the application: <br>
 <strong>php artisan db:seed</strong> <br>
 <strong>php artisan storage:link</strong> <br>
 
+6- run : <br>
+npm install <br>
+npm run build <br>
+
+
 6-  run the application : <strong>php artisan serve</strong> <br>
 
 7- Open url : <br>
