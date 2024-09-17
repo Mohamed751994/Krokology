@@ -20,6 +20,8 @@ http://localhost:8000/login <br>
 then write the credentials : <strong>[Email : user@user.com - password: 12345678]</strong><br>
 after login you can go to  http://localhost:8000/todos
 
+8- you can run the store function test : <strong>php artisan test --filter StoreTodoTest</strong>
+
 
 Note (Sending Email) : I Commented The send email functionality because we don't have mail credentails 
 you can see it in app/Observers/TodoObserver.php
