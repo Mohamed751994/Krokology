@@ -14,18 +14,18 @@ Instructions on how to run the application: <br>
 <strong>php artisan storage:link</strong> <br>
 
 6- run : <br>
-npm install <br>
-npm run build <br>
+<strong>npm install</strong> <br>
+<strong>npm run build</strong> <br>
 
 
-6-  run the application : <strong>php artisan serve</strong> <br>
+7-  run the application : <strong>php artisan serve</strong> <br>
 
-7- Open url : <br>
+8- Open url : <br>
 http://localhost:8000/login <br>
 then write the credentials : <strong>[Email : user@user.com - password: 12345678]</strong><br>
 after login you can go to  http://localhost:8000/todos
 
-8- you can run the store function test : <strong>php artisan test --filter StoreTodoTest</strong>
+9- you can run the store function test : <strong>php artisan test --filter StoreTodoTest</strong>
 
 
 Note (Sending Email) : I Commented The send email functionality because we don't have mail credentails 
